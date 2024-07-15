@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+body{
+background-color: beige;
+}
+header{
+    position: fixed;
+    background-color:black;
+    top:0;
+    left:0;
+    right:0;
+    border:1px solid white;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    width: 85%;
+}
+header nav .logo{
+    color:aliceblue;
+    font-size: 30px;
+    font-weight: bolder;
+}
+header nav .logo span{
+color:aqua
